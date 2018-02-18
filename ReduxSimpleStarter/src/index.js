@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import SearchBar from './components/search_bar';
-import MyKey from './config';
 
-const myKey = MyKey;
+var myKey = config.MyKey;
 
 const App = () => {
   console.log(myKey);
