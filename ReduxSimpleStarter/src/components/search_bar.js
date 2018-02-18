@@ -1,9 +1,12 @@
-import React from 'react';
+// curly braces are like React.Component import
+import React, { Component } from 'react';
 
-const SearchBar = () => {
-  return (
-    <div>search bar component</div>
-  );
+// SearchBar inherits parent 'React.Component' properties
+class SearchBar extends Component {
+  // all classes need a render method
+  render() {
+    return (<input />);
+  }
 }
 
 export default SearchBar;
