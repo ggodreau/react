@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 class SearchBar extends Component {
   // all classes need a render method
   render() {
-    return (<input />);
+    return (<input onChange={event => console.log(event.target.value)} />);
   }
 }
 
